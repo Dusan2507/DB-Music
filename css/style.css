@@ -86,6 +86,7 @@ body {
 }
 
 .hero-description {
+  /* font-family: "Merienda", sans-serif; */
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 4.8rem;
@@ -127,4 +128,32 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.margin-right-small {
+  margin-right: 1.6rem !important;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.host-img img {
+  height: 8.6rem;
+  width: 8.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.host-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.host-text span {
+  color: #b05959;
+  font-weight: 700;
 }
