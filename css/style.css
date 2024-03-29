@@ -281,5 +281,16 @@ body {
 
 .section-guitar-covers {
   padding: 9.6rem 0;
-  /* background-color: orangered; */
+}
+
+.step-details {
+  display: flex;
+}
+
+.step-video {
+  width: 70%;
+}
+
+.band-logo {
+  width: 30%;
 }
